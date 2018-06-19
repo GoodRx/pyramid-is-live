@@ -53,4 +53,7 @@ setup(
     py_modules=["pyramid_is_live"],
     include_package_data=True,
     install_requires=INSTALL_REQUIRES,
+    description="Add is_live to your Pyramid requests",
+    long_description=read("README.rst"),
+    long_description_content_type="text/x-rst",
 )

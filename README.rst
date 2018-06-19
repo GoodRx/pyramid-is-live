@@ -6,8 +6,7 @@ pyramid-is-live
 
 ``pyramid-is-live`` uses a tween to add an ``is_live`` property to Pyramid
 requests, which is ``True`` if the request came from a HTTP interaction and
-``False`` otherwise, e.g. if the request came from
-:func:`pyramid.paster.bootstrap`.
+``False`` otherwise, e.g. if the request came from ``pyramid.paster.bootstrap``.
 
 Getting Started
 ---------------
