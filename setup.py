@@ -6,7 +6,14 @@ from setuptools import setup
 
 NAME = "pyramid-is-live"
 META_PATH = "pyramid_is_live.py"
-CLASSIFIERS = ["Private :: Do Not Upload"]
+CLASSIFIERS = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Framework :: Pyramid",
+]
 
 INSTALL_REQUIRES = ["pyramid"]
 
