@@ -26,3 +26,15 @@ Getting Started
           ...
 
 3. Use ``request.is_live`` in your views and scripts!
+
+Contributing
+------------
+
+We use `tox <https://tox.readthedocs.io/en/latest/>`_ to run our tests and
+linters.
+
+Run ``tox`` to run all tests and linters.
+
+Run ``tox -e format`` to reformat your code using `Black
+<https://black.readthedocs.io/en/stable/>`_ and `isort
+<https://github.com/timothycrosley/isort>`_.
