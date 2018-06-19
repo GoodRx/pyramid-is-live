@@ -1,0 +1,23 @@
+---
+
+dist: trusty
+sudo: false
+
+language: python
+python: 3.6
+
+cache:
+  directories:
+    - ~/.cache/pip
+before_cache:
+  - rm -rf ~/.cache/pip/log/
+
+install: pip install -U pip tox wheel setuptools virtualenv
+script: tox
+
+# In addition to pull requests, always build these branches
+branches:
+  only:
+    - master
+    # Match tags starting with "vN..."
+    - /^v\d+.*$/
