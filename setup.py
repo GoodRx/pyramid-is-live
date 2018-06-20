@@ -6,7 +6,14 @@ from setuptools import setup
 
 NAME = "pyramid-is-live"
 META_PATH = "pyramid_is_live.py"
-CLASSIFIERS = ["Private :: Do Not Upload"]
+CLASSIFIERS = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Framework :: Pyramid",
+]
 
 INSTALL_REQUIRES = ["pyramid"]
 
@@ -46,4 +53,7 @@ setup(
     py_modules=["pyramid_is_live"],
     include_package_data=True,
     install_requires=INSTALL_REQUIRES,
+    description="Add is_live to your Pyramid requests",
+    long_description=read("README.rst"),
+    long_description_content_type="text/x-rst",
 )

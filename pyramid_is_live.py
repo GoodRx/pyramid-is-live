@@ -4,7 +4,7 @@ requests and scripts.
 """
 from pyramid.tweens import INGRESS
 
-__version__ = "0.1.0"
+__version__ = "0.1.0.post3"
 
 
 def request_is_live_tween_factory(handler, registry):
