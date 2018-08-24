@@ -13,6 +13,7 @@ CLASSIFIERS = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.6",
     "Framework :: Pyramid",
+    "License :: OSI Approved :: MIT License",
 ]
 
 INSTALL_REQUIRES = ["pyramid"]
@@ -56,4 +57,5 @@ setup(
     description="Add is_live to your Pyramid requests",
     long_description=read("README.rst"),
     long_description_content_type="text/x-rst",
+    license="MIT",
 )
